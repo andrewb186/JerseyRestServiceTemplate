@@ -1,4 +1,4 @@
-JerseyResyServiceTemplate
+JerseyRestServiceTemplate
 =========================
 
-JerseyResyServiceTemplate
+JerseyRestServiceTemplate
