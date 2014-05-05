@@ -10,6 +10,9 @@
 	<!-- Properties -->
 	<properties>
 		<jersey.version>1.18</jersey.version>
+		<wadl.plugin.wadlfilename>${basedir}/src/main/webapp/application.wadl</wadl.plugin.wadlfilename>
+		<wadl.plugin.baseuri>http://localhost:8080/RestServiceProject</wadl.plugin.baseuri>
+		<wadl.plugin.packageparam>andrew.rest.service.impl</wadl.plugin.packageparam>
 	</properties>
 
 
@@ -65,7 +68,60 @@
 		</repository>
 	</repositories>
 
-	<!--  Build -->
-
+	<!-- Build -->
+	<build>
+	    
+	    <!-- Plugins -->
+		<plugins>
+		    
+		    
+		    <!-- WADL Plugin -->
+			<plugin>
+				<groupId>com.sun.jersey.contribs</groupId>
+				<artifactId>maven-wadl-plugin</artifactId>
+				<version>1.17</version>
+				<executions>
+					<execution>
+						<id>generate</id>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<phase>${javadoc-phase}</phase>
+					</execution>
+				</executions>
+				<configuration>
+					<wadlFile>${wadl.plugin.wadlfilename}</wadlFile>
+					<formatWadlFile>true</formatWadlFile>
+					<baseUri>${wadl.plugin.baseuri}</baseUri>
+					<packagesResourceConfig>
+					   <param>${wadl.plugin.packageparam}</param>
+					</packagesResourceConfig>
+					<wadlGenerators>
+						<wadlGeneratorDescription>
+							<className>com.sun.jersey.server.wadl.generators.WadlGeneratorApplicationDoc</className>
+							<properties>
+								<property>
+									<name>applicationDocsFile</name>
+									<value>${basedir}/src/main/resources/application-doc.xml</value>
+								</property>
+							</properties>
+						</wadlGeneratorDescription>
+						<wadlGeneratorDescription>
+							<className>com.sun.jersey.server.wadl.generators.WadlGeneratorGrammarsSupport</className>
+							<properties>
+								<property>
+									<name>grammarsFile</name>
+									<value>${basedir}/src/main/resources/application-grammars.xml</value>
+								</property>
+							</properties>
+						</wadlGeneratorDescription>
+					</wadlGenerators>
+				</configuration>
+			</plugin>
+			<!-- end of wadl plugin -->
+			
+			
+		</plugins>
+	</build>
 
 </project>
