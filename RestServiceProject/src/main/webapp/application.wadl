@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02"><doc
+        jersey:generatedBy="Jersey: 1.17 01/17/2013 03:31 PM"
+        xmlns:jersey="http://jersey.java.net/"/><doc xml:lang="en"
+        title="SysUser Rest Service"><![CDATA[
+	    Wadl of SysUser rest service]]></doc><grammars/><resources
+            base="http://localhost:8080/RestServiceProject"><resource
+                path="patient"><resource path="/getpatient"><method
+                    name="GET" id="getPatient"><response><representation
+            mediaType="text/plain"/></response></method></resource></resource><resource
+                path="user"><resource path="/getuser"><method name="GET"
+                            id="getUser"><response><representation mediaType="text/plain"/></response></method></resource></resource></resources></application>
