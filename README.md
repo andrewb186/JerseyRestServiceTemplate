@@ -1,4 +1,6 @@
 JerseyRestServiceTemplate
 =========================
 
-Jersey rest service template, with WADL generate plugin, and log4j functionality with properties file and output to text file
+Jersey rest service template, which includes
+- maven-wadl-plugin 
+- log4j functionality, log4j properties file, output to console and .txt/.log file
