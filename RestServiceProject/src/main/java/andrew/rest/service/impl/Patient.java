@@ -14,7 +14,7 @@ public class Patient implements IPatient {
 	@Path("/getpatient")
 	@Produces("text/plain")
 	public String getPatient() {
-		// TODO Auto-generated method stub
+		log.error("Getting Patient with ID 965424047");
 		return "Patient - Andrew Brincat";
 	}
 

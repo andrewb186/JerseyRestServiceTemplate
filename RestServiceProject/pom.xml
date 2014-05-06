@@ -10,6 +10,7 @@
 	<!-- Properties -->
 	<properties>
 		<jersey.version>1.18</jersey.version>
+		<log4j.version>1.2.17</log4j.version>
 		<wadl.plugin.wadlfilename>${basedir}/src/main/webapp/application.wadl</wadl.plugin.wadlfilename>
 		<wadl.plugin.baseuri>http://localhost:8080/RestServiceProject</wadl.plugin.baseuri>
 		<wadl.plugin.packageparam>andrew.rest.service.impl</wadl.plugin.packageparam>
@@ -20,6 +21,13 @@
 
 	<!-- Dependencies -->
 	<dependencies>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
@@ -70,12 +78,12 @@
 
 	<!-- Build -->
 	<build>
-	    
-	    <!-- Plugins -->
+
+		<!-- Plugins -->
 		<plugins>
-		    
-		    
-		    <!-- WADL Plugin -->
+
+
+			<!-- WADL Plugin -->
 			<plugin>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>maven-wadl-plugin</artifactId>
@@ -94,7 +102,7 @@
 					<formatWadlFile>true</formatWadlFile>
 					<baseUri>${wadl.plugin.baseuri}</baseUri>
 					<packagesResourceConfig>
-					   <param>${wadl.plugin.packageparam}</param>
+						<param>${wadl.plugin.packageparam}</param>
 					</packagesResourceConfig>
 					<wadlGenerators>
 						<wadlGeneratorDescription>
@@ -119,8 +127,8 @@
 				</configuration>
 			</plugin>
 			<!-- end of wadl plugin -->
-			
-			
+
+
 		</plugins>
 	</build>
 

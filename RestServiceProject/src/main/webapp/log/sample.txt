@@ -1,0 +1,17 @@
+[ERROR] [06 May 2014 - 22:12:58] >> andrew.rest.service.impl.SysUser >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:13:01] >> andrew.rest.service.impl.SysUser >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:13:01] >> andrew.rest.service.impl.SysUser >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:13:08] >> andrew.rest.service.impl.SysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:13:11] >> andrew.rest.service.impl.SysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:13:12] >> andrew.rest.service.impl.SysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:13:19] >> andrew.rest.service.impl.SysUser >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:15:33] >> andrew.rest.service.impl.Patient >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:15:35] >> andrew.rest.service.impl.Patient >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:15:41] >> andrew.rest.service.impl.SysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:16:32] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:16:38] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:22:52] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [06 May 2014 - 22:22:57] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:29:05] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:29:06] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [06 May 2014 - 22:29:13] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
