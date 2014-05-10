@@ -15,3 +15,17 @@
 [ERROR] [06 May 2014 - 22:29:05] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
 [ERROR] [06 May 2014 - 22:29:06] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
 [ERROR] [06 May 2014 - 22:29:13] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [10 May 2014 - 12:40:19] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 12:40:20] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 12:40:22] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 13:10:38] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 13:21:19] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 13:22:36] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 14:45:18] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [10 May 2014 - 14:48:23] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 15:41:47] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 17:30:29] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [10 May 2014 - 17:31:10] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [10 May 2014 - 17:40:04] >> andrew.rest.service.interfaces.IPatient >> Getting Patient with ID 965424047
+[ERROR] [10 May 2014 - 17:44:24] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
+[ERROR] [10 May 2014 - 19:11:20] >> andrew.rest.service.interfaces.ISysUser >> Getting user with ID 10225360
